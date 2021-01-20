@@ -1,7 +1,7 @@
 #ifndef COORDINATE_H
 #define COORDINATE_H
-#include "../../CASMcode-dev/include/casm/external/Eigen/Core"
-#include "../../CASMcode-dev/include/casm/external/Eigen/Dense"
+#include <casmutils/definitions.hpp> 
+#include <casmutils/xtal/structure_tools.hpp> 
 #include <casmutils/xtal/lattice.hpp>
 #include <string>
 #include <vector>

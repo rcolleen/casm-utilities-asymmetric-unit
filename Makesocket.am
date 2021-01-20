@@ -2,15 +2,9 @@ bin_PROGRAMS += _casmutils-asymmetric_unit
 
 _casmutils_asymmetric_unit_SOURCES=\
 						plugins/casm-utilities-asymmetric-unit/vectorfunctions.cpp\
-						plugins/casm-utilities-asymmetric-unit/assymmetric_unit.cpp\
-_casmutils_asymmetric_unit_LDADD=\
-						libcasmutils.la
-
-bin_PROGRAMS += _casmutils-asymmetric_unit
-
-_casmutils_asymmetric_unit_SOURCES=\
-						plugins/casm-utilities-asymmetric-unit/vectorfunctions.cpp\
+						plugins/casm-utilities-asymmetric-unit/vectorfunctions.hpp\
 						plugins/casm-utilities-asymmetric-unit/asymmetric_unit.cpp\
+						plugins/casm-utilities-asymmetric-unit/asymmetric_unit.hpp\
 						plugins/casm-utilities-asymmetric-unit/asymmetric_unit_main.cpp
 _casmutils_asymmetric_unit_LDADD=\
 						libcasmutils.la

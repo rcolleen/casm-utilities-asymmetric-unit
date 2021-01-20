@@ -7,7 +7,8 @@
 #include "casmutils/xtal/structure.hpp"
 #include <vector>
 #include "vectorfunctions.hpp"
-
+//Asymmetric unit code written by Muna Saber
+//
 //This makes an orbit (or a set of symmetrically equivalent atoms)
 std::vector<Eigen::Vector3d> make_orbit(const Eigen::Vector3d& coordinates, const std::vector<casmutils::sym::CartOp>& symops, const casmutils::xtal::Lattice& lattice);
 
