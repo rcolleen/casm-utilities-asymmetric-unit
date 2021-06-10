@@ -8,3 +8,9 @@ _casmutils_asymmetric_unit_SOURCES=\
 						plugins/casm-utilities-asymmetric-unit/asymmetric_unit_main.cpp
 _casmutils_asymmetric_unit_LDADD=\
 						libcasmutils.la
+
+TESTS+=check_plugin_asymetric_unit
+check_PROGRAMS+=check_plugins_asymetric_unit
+check_plugins_asymetric_unit_SOURCES=plugins/casm-utilities-asymmetric_unit/test/unit/asymmetric_unit.cpp
+check_plugin_asymetric_unit_LDADD=\
+                         libgtests.la
